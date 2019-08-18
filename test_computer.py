@@ -4,7 +4,7 @@ from deck import Card, Deck
 from hand import Hand
 
 
-class MyTestCase(unittest.TestCase):
+class ComputerTests(unittest.TestCase):
     def test_computer_stops_at_21(self):
         player_hand = Hand("")
         player_hand.add(Card("spades", 13))

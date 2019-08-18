@@ -3,7 +3,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./venv",
+        ".",
         "-p",
         "test_*.py"
     ],
